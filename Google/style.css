@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: rgb(5, 31, 53);
+}
+nav{
+    display:flex;
+    justify-content:right;
+    padding: 20px 10px;
+    height: 50px;
+}
+ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    text-align:right;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: none;
+}
+.small-text{
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.centre-view{
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.google-logo{
+    margin-top: 30px;
+    justify-content: center;
+}
+.profile-pic{
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+.menu-icon{
+    width: 25px;
+    height:25px;
+    display: flex;
+}
+.lab-icon{
+    width:25px;
+    height:25px;
+    display: flex;
+}
+.type{
+    display: flex;
+    justify-content: center;
+    clear:right;
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+p span{
+    justify-content: center;
+    color: blue;
+    text-decoration-line: none;
+    
+}
+.btnstyle{
+    margin: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
+.btnstyle button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding: 0 16px;
+}
+.search{
+    position: relative;
+
+}
+.search input{
+    border-radius: 25px;
+    width: 35rem;
+    padding: 5px;
+    border: 1px solid rgb(212, 207, 207);
+    margin-top: 30px;
+}
+.mic{
+    width: 40px;
+    
+    
+}
+.lens{
+    width: 24px;
+    
+
+}
+form{
+    display: block;
+    margin-top: 0cm;
+    unicode-bidi: isolate;
+}
+.search-icons{
+    position: absolute;
+    top: 33px;
+    right: 15px;
+}
