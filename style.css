@@ -91,16 +91,16 @@ p span{
     border: 1px solid rgb(212, 207, 207);
     margin-top: 24px;
     font-size: 18px;
-    min-height: 10px;
+    /* max-height: 42px; */
     resize: none;
     overflow: hidden;
 }
-/*.search textarea:focus{
+.search textarea:focus{
     height: auto;
-    min-height: 40px;
-    max-height: 200px;
+    /* min-height: 40px; */
+    /* max-height: 200px; */
     overflow-y: auto;
-}*/
+}
 .mic-icon{
     width: 32px;
     height: 20px;
