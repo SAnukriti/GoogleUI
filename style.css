@@ -19,7 +19,6 @@ ul{
 li{
     text-align:right;
     padding: 14px 12px;
-    text-decoration: none;
 }
 li a:hover{
     text-decoration: none;
@@ -35,7 +34,6 @@ li a:hover{
     padding-top: 20px;
     flex-direction: column;
     align-items: center;
-    
 }
 .google-logo{
     margin-top: 30px;
@@ -56,29 +54,19 @@ li a:hover{
     height:25px;
     display: flex;
 }
-.type{
-    display: flex;
-    justify-content: center;
-    clear:right;
-}
 p{
     display: flex;
     justify-content: center;
     color: black;
 }
 p span{
-    justify-content: center;
     color: blue;
-    text-decoration-line: none;
-    
 }
 .btnstyle{
-    margin: 12px;
-    padding: 20px;
+    margin: 11px 4px;
     display: flex;
     justify-content: center;
     gap: 16px;
-    
 }
 .btnstyle button{
     background-color: #f8f9fa;
@@ -89,32 +77,43 @@ p span{
 }
 .search{
     position: relative;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.search input{
+.search textarea{
     border-radius: 25px;
     width: 35rem;
-    padding: 5px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 72px;
     border: 1px solid rgb(212, 207, 207);
-    margin-top: 30px;
+    margin-top: 24px;
+    font-size: 18px;
+    min-height: 10px;
+    resize: none;
+    overflow: hidden;
 }
-.mic{
-    width: 40px;
-    
-    
+/*.search textarea:focus{
+    height: auto;
+    min-height: 40px;
+    max-height: 200px;
+    overflow-y: auto;
+}*/
+.mic-icon{
+    width: 32px;
+    height: 20px;
 }
-.lens{
-    width: 24px;
-    
-
-}
-form{
-    display: block;
-    margin-top: 0cm;
-    unicode-bidi: isolate;
+.lens-icon{
+    width: 25px;
+    height: 20px;
 }
 .search-icons{
+    display: flex;
+    gap: 4px;
     position: absolute;
-    top: 33px;
-    right: 15px;
+    right: 8px;
+    top: 33%;
+    transform: translateY(-50%);
 }
